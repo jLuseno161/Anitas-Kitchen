@@ -3,12 +3,12 @@ body{
 }
 .maindiv{
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 50%;
     background-color:#F15A29;
     border-radius:2px;
     color: black;
 }
-#firstdiv{
+.firstdiv{
     background-image: url('assets/backgrounds/landing.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -16,5 +16,28 @@ body{
     display: block;
     font-size: 25px;
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
+.secdiv{
+    display: flex;
+    height: 130px;
+    font-size: 18px;
+}
+#fun_time,#breakfast, #lunch, #dinner{
+    flex: 2;
+    text-align: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+#breakfast{
+    background-image: url('assets/foodtop/breakfast.jpg');
+}
+#lunch{
+    background-image: url('assets/foodtop/lunch.jpg');
+}
+#dinner{
+    background-image: url('assets/foodtop/dinner.jpg');
+}
+
