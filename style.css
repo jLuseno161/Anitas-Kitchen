@@ -1,9 +1,11 @@
 body{
     background-color: #d1bbb4;
     max-width: 1200px;
-    max-height: auto;
+    max-height: 100%;
     margin: 0 auto;
     font-size: 22px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .maindiv{
     margin: 0 auto;
@@ -64,13 +66,12 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 12px solid rgb(230, 230, 236);
+    border: 15px solid rgb(230, 230, 236);
     border-radius: 2px;
-    box-shadow: 0px 0px 9px rgb(53, 53, 53);
+    box-shadow: 0px 0px 6px grey;
     overflow: hidden;
 }
 #ff_text{
-    float: left;
     width: 50%;
     height: auto;
     padding: 30px;
@@ -95,9 +96,9 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    border: 12px solid rgb(230, 230, 236);
+    border: 15px solid rgb(230, 230, 236);
     border-radius: 2px;
-    box-shadow: 0px 0px 9px rgb(53, 53, 53);
+    box-shadow: 0px 0px 6px grey;
     overflow: hidden;
 }
 #d_text{
@@ -112,3 +113,6 @@ body{
     padding-right: 20px;
     text-align: right;
 }
+
+
+
