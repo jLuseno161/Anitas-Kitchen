@@ -114,5 +114,11 @@ body{
     text-align: right;
 }
 
-
+.customers{
+    height: auto;
+    width: auto;  
+    padding: 120px;  
+    background-color: whitesmoke;
+   
+}
 
