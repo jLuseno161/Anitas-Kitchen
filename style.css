@@ -130,11 +130,20 @@ body{
     padding: 30px;
 }
 #vertical { 
-    border-left: 1px solid rgb(114, 18, 18); 
+    border-left: 1px solid grey;
     height: 210px; 
     margin: auto;
 }
 #cst_review, #about{
     text-align: center; 
     font-size: 18px;
+}
+#cst_review{
+    flex: 3;
+    margin-right: 40px;
+}
+#about{
+    flex: 2;
+    margin-left: 40px;
+
 }
