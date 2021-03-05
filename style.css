@@ -23,9 +23,10 @@ body{
     flex-direction: row;
     height: 130px;
     font-size: 18px;
+   
 }
 #fun_time,#breakfast, #lunch, #dinner{
-    flex: 2;
+    flex: 1;
     text-align: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -41,20 +42,41 @@ body{
 }
 .fastfood{
     display: flex;
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 #ff_image{
     width: 50%;
+    box-sizing: border-box;
     padding: 50px;
-    background-color:  rgb(156, 100, 80);
+    padding-right: 20px;
+    
 }  
+#imgs{
+    display: flex;
+    flex-direction: column;
+    border: 12px solid rgb(230, 230, 236);
+    border-radius: 2px;
+    box-shadow: 0px 0px 9px rgb(53, 53, 53);
+    
+}
 #ff_text{
     float: left;
     width: 50%;
+    height: auto;
     padding: 20px;
-    background-color:  rgb(243, 232, 228);
+    padding-right: 50px;
     margin-left: 10px;
-} 
-img{
+    font-size: 100%;
+    
+}
+
+@media only screen and (max-width:1000px){
+    body {
+        font-size: 1.5vw;
+    }
+    
+}
+#ff_image> img, #ff_image> img{
     max-width: 100%;
+    clear: both;
 }
