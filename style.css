@@ -40,6 +40,13 @@ body{
 #dinner{
     background-image: url('assets/foodtop/dinner.jpg');
 }
+
+.food_drinks{
+    height: auto;
+    width: auto;
+    padding: 40px;
+    background-color: whitesmoke;
+}
 .fastfood{
     display: flex;
     background-color: whitesmoke;
@@ -47,34 +54,65 @@ body{
 #ff_image{
     width: 50%;
     box-sizing: border-box;
-    padding: 50px;
+    padding: 40px;
     padding-right: 20px;
     
 }  
-#imgs{
+#imgs1{
+    width: 100%;
     display: flex;
     flex-direction: column;
     border: 12px solid rgb(230, 230, 236);
     border-radius: 2px;
     box-shadow: 0px 0px 9px rgb(53, 53, 53);
+    overflow: hidden;
 }
 #ff_text{
     float: left;
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    margin-left: 10px;
+    font-size: 100%;  
+}
+
+.drinks{
+    display: flex;
+    background-color: whitesmoke;
+}
+ #d_image{
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
+    padding: 20px;
+    padding-right: 50px;
+
+    
+}  
+#imgs2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 12px solid rgb(230, 230, 236);
+    border-radius: 2px;
+    box-shadow: 0px 0px 9px rgb(53, 53, 53);
+    overflow: hidden;
+}
+#d_text{
+    float: right;
     width: 50%;
     height: auto;
     padding: 20px;
     padding-right: 50px;
     margin-left: 10px;
     font-size: 100%;  
+    padding: 50px;
+    padding-right: 20px;
+    text-align: right;
 }
 
 @media only screen and (max-width:1000px){
     body {
         font-size: 1.5vw;
     }
-    
-}
-#ff_image> img, #ff_image> img{
-    max-width: 100%;
-    clear: both;
 }
