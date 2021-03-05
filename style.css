@@ -3,12 +3,12 @@ body{
 }
 .maindiv{
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 60%;
     background-color:#F15A29;
     border-radius:2px;
     color: black;
 }
-.firstdiv{
+.menulogo{
     background-image: url('assets/backgrounds/landing.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -18,8 +18,9 @@ body{
     position: relative;
     overflow: hidden;
 }
-.secdiv{
+.services {
     display: flex;
+    flex-direction: row;
     height: 130px;
     font-size: 18px;
 }
@@ -28,9 +29,7 @@ body{
     text-align: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
 }
-
 #breakfast{
     background-image: url('assets/foodtop/breakfast.jpg');
 }
@@ -40,4 +39,22 @@ body{
 #dinner{
     background-image: url('assets/foodtop/dinner.jpg');
 }
-
+.fastfood{
+    display: flex;
+    background-color: aliceblue;
+}
+#ff_image{
+    width: 50%;
+    padding: 50px;
+    background-color:  rgb(156, 100, 80);
+}  
+#ff_text{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    background-color:  rgb(243, 232, 228);
+    margin-left: 10px;
+} 
+img{
+    max-width: 100%;
+}
