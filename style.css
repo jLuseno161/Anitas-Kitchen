@@ -118,6 +118,36 @@ body{
     text-align: right;
 }
 
+/**************************************************************************/
+.fooditems{
+    background-image: url('assets/backgrounds/foodsBg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding: 50px;
+}
+.container1{
+    height: auto;
+    width: auto;
+    padding: 40px;
+    background-color: whitesmoke;
+
+}
+.items_list {
+    color: #F15A29;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    border:10px solid whitesmoke ;
+    margin-bottom: 50px;
+}
+/**************************************************************************/
+
 .customers{
     height: auto;
     width: auto;  
@@ -153,9 +183,7 @@ body{
     flex: 2;
     margin-left: 40px;
 
-}
-
-.food_delivery{
+}.food_delivery{
     background-image: url('assets/backgrounds/subscribe.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -180,7 +208,6 @@ body{
     height:55px ;
     border:none;
 }
-
 .footer{
     text-align: center;
     padding-top: 40px; 
@@ -196,22 +223,17 @@ body{
     padding: 3px;
     text-align: center;
   }
-  
   .right {
     transform: rotate(-45deg);
     float: right;
-
   }
-  
   .left {
     transform: rotate(135deg);
     float: left;
-  
   }
   .container{
     align-items: center;
     display:flex;
     justify-content: center;
-    margin: 10px;
-    
+    margin: 10px; 
   }
