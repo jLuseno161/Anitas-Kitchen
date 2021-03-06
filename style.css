@@ -6,6 +6,7 @@ body{
     font-size: 22px ;
     margin-top: 20px;
     margin-bottom: 20px;
+
 }
 .maindiv{
     margin: 0 auto;
@@ -13,6 +14,15 @@ body{
     background-color:#F15A29;
     border-radius:2px;
     color: black;
+}
+.nav_icon{
+    margin: 50px;
+}
+#nav_icon{
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
 }
 .menulogo{
     background-image: url('assets/backgrounds/landing.jpg');
