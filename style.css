@@ -27,7 +27,7 @@ body{
 .services {
     display: flex;
     flex-direction: row;
-    height: 130px;  
+    height: 150px;  
 }
 #fun_time,#breakfast, #lunch, #dinner{
     flex: 1;
@@ -124,11 +124,7 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align: center;
-    display: block;
-    position: relative;
-    overflow: hidden;
-    height: auto;
-    padding: 50px;
+    padding: 80px;
     background-color: rgba(160, 156, 156, 0.79); 
     background-blend-mode: overlay;   
 
@@ -138,6 +134,7 @@ body{
     box-sizing: border-box;
     padding: 30px;
     padding-bottom: 0px;
+    height: auto;
 
 }
 .items_list {
@@ -152,7 +149,25 @@ body{
     flex-direction: column;
     overflow: auto;
     margin: 5px ;
-
+}
+#tr{
+    text-align: center;
+}
+table{
+    margin: 0px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: gainsboro;
+    border: 1px solid rgb(170, 169, 169);
+    padding: 10px;
+    height: 50px;
+}
+th:hover{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    color: #F15A29;
 }
 
 /**************************************************************************/
