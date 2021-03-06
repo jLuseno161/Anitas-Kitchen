@@ -42,8 +42,8 @@ body{
 }
 #lunch{
     background-image: url('assets/foodtop/lunch.jpg');
-    background-color: rgba(231, 228, 228, 0.79);
-    background-blend-mode: overlay;
+    background-color: rgba(231, 228, 228, 0.79); 
+    background-blend-mode: overlay;                         /*adds overlay on img bakground in the same div*/
 }
 #dinner{
     background-image: url('assets/foodtop/dinner.jpg');
@@ -171,7 +171,7 @@ body{
     border: none;
     margin-top: 5px;
     margin: 20px;
-    opacity: 0.2;
+    opacity: 0.2;       /*makes inputfield see through*/
 }
 #Subscribe{
     background-color: #F15A29;
@@ -182,7 +182,12 @@ body{
 
 .footer{
     text-align: center;
-    position: relative;
-    overflow: hidden;
-    padding-top: 40px;
+    padding-top: 40px; 
 }
+#alignlogo{
+    clear: both;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+
