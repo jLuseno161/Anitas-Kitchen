@@ -110,12 +110,9 @@ body{
 #d_text{
     float: right;
     width: 50%;
-    height: auto;
     padding: 20px;
     padding-right: 50px;
     margin-left: 10px;
-    font-size: 100%;  
-    padding: 50px;
     padding-right: 20px;
     text-align: right;
     font-size: 18px;  
@@ -210,8 +207,11 @@ th:hover{
 #about{
     flex: 2;
     margin-left: 40px;
-
-}.food_delivery{
+}
+#cst_review > h3, #about >h3{
+    color: #F15A29;
+}
+.food_delivery{
     background-image: url('assets/backgrounds/subscribe.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -220,21 +220,28 @@ th:hover{
     position: relative;
     overflow: hidden;
     padding: 40px;
+    color: whitesmoke;
 }
+
 #textbox{
-    background-color: rgb(253, 250, 250);
+    background-color: rgb(88, 87, 87);
     width: 400px;
     height:52px ;
     border: none;
     margin-top: 5px;
     margin: 20px;
-    opacity: 0.2;       /*makes inputfield see through*/
+    opacity: 0.5;       /*makes inputfield see through*/
+}
+::placeholder{
+    color: white;
+    opacity: 1;
 }
 #Subscribe{
     background-color: #F15A29;
     width: 200px;
     height:55px ;
     border:none;
+    color: whitesmoke;
 }
 .footer{
     text-align: center;
