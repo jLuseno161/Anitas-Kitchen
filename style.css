@@ -34,8 +34,6 @@ body{
     text-align: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    
-
 }
 #breakfast{
     background-image: url('assets/foodtop/breakfast.jpg');
@@ -142,6 +140,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 
 }
 #food{
@@ -243,7 +243,7 @@ th:hover{
 .arrow {
     border: solid #F15A29;
     border-width: 0 3px 3px 0;
-    padding: 3px;
+    padding: 5px;
     text-align: center;
   }
   .right {
