@@ -20,14 +20,18 @@ body{
     background-repeat: no-repeat;
     text-align: center;
     display: block;
-    font-size: 27px;
+    font-size: 30px;
     position: relative;
     overflow: hidden;
+    color: white;
+    font-family:serif;
 }
 .services {
     display: flex;
     flex-direction: row;
     height: 150px;  
+    color: white;
+    font-style: italic;
 }
 #fun_time,#breakfast, #lunch, #dinner{
     flex: 1;
@@ -78,7 +82,7 @@ body{
     height: auto;
     padding: 30px;
     margin-left: 10px;
-    font-size: 100%;  
+    font-size: 18px;  
 }
 
 .drinks{
@@ -114,6 +118,7 @@ body{
     padding: 50px;
     padding-right: 20px;
     text-align: right;
+    font-size: 18px;  
 }
 
 /**************************************************************************/
@@ -260,3 +265,11 @@ th:hover{
     justify-content: center;
     margin: 10px; 
   }
+
+  #viewgallery{
+    background-color: whitesmoke;
+    width: 200px;
+    height:55px ;
+    color: #F15A29;
+    border:1px solid #F15A29;
+}
